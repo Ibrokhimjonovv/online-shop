@@ -1,0 +1,13 @@
+#partner {
+  background-color: black;
+
+  .partner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}

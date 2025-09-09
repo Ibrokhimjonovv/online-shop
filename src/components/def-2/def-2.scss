@@ -1,0 +1,71 @@
+.DressStyle_dressstylecontainer__-NKon {
+  background-color: #f0f0f0;
+  border-radius: 25px;
+  margin: 0 50px !important;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+
+  .DressStyle_dressstyletitle__XsOO2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+
+  .container-fluid {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .row {
+    display: flex;
+    gap: 20px;
+
+    &:last-child {
+      margin-top: 20px;
+    }
+
+    .gym {
+      font-size: 30px;
+      font-weight: 700;
+      padding: 30px;
+      width: 40%;
+      height: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+
+      &.i-1 {
+        background: url(https://shopco.surge.sh/static/media/dressstyleimg1.8c087f36187136c08eb2.png)
+          no-repeat top;
+        background-size: cover;
+      }
+
+      &.i-2 {
+        background: url(https://shopco.surge.sh/static/media/dressstyleimg4.dfc3e5d9247dd30d06b4.png)
+          no-repeat top;
+        background-size: cover;
+      }
+    }
+    .casual {
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 700;
+      padding: 30px;
+      width: 60%;
+      height: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+
+      &.i-1 {
+        background: url(https://shopco.surge.sh/static/media/dressstyleimg2.ede8505086e6a2b684ea.png)
+          no-repeat top;
+        background-size: cover;
+      }
+      &.i-2 {
+        background: url(https://shopco.surge.sh/static/media/dressstyleimg3.01cfe784e6915626e5fd.png)
+          no-repeat top;
+        background-size: cover;
+      }
+    }
+  }
+}

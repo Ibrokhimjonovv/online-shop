@@ -1,0 +1,56 @@
+#home-def-container {
+  background-color: #f2f0f1;
+
+  .def-container-inner {
+    min-height: 90vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(https://shopco.surge.sh/static/media/heroimg1.a9e65ad77c34867e751b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    align-items: center;
+
+    .def-left {
+      #tttitle {
+        font-size: 60px;
+        font-weight: 900;
+        font-family: "Montserrat", sans-serif !important;
+        line-height: 1.01;
+      }
+
+      p {
+        margin-top: 5px;
+      }
+
+      a {
+        padding: 15px 20px;
+        border-radius: 25px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        width: 170px;
+        color: #fff;
+        margin-top: 15px;
+      }
+
+      .lies {
+        display: flex;
+        margin-top: 40px;
+
+        .cube {
+          padding: 0 20px;
+          border-right: 1px solid #999;
+          line-height: 1.2;
+
+          &:last-child {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
