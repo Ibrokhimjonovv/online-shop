@@ -1,0 +1,56 @@
+#comments-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 40px 50px;
+    .comments-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+
+            button {
+                background-color: transparent;
+                border: none;
+                font-size: 32px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+        
+    }
+    .comment-swiper-container {
+        margin-top: 25px;
+        .comment-card {
+            border: 1px solid #f0f0f0;
+            border-radius: 30px;
+            padding: 30px;
+            background-color: #fff;
+        
+            .comment-author {
+                font-size: 18px;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .comment-text {
+                font-size: 15px;
+                color: #888;
+                margin-top: 10px;
+            }
+        }
+    }
+}
