@@ -101,8 +101,8 @@ const Products = () => {
     return (
         <div id="products-container">
             <YandexAd
-                blockId="R-A-17181670-1"
-                renderTo="yandex_rtb_R-A-17181670-1"
+                blockId="R-A-17183166-1"
+                renderTo="yandex_rtb_R-A-17183166-1"
             />
 
             {Object.entries(categories).map(([category, items]) => (
