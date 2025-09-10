@@ -93,6 +93,10 @@ const Products = () => {
         return category.replace(/-/g, " ");
     };
 
+    const pushTo = (id) => {
+        window.location.href=`/shop/${id}`
+    }
+
     return (
         <div id="products-container">
             {Object.entries(categories).map(([category, items]) => (
@@ -100,7 +104,7 @@ const Products = () => {
                     <h1 className="products-title">{formatCategory(category)}</h1>
                     <div className="products-container">
                         {items.map((product) => (
-                            <div className="product" key={product.id}>
+                            <div className="product" onClick={() => pushTo(product.id)} key={product.id}>
                                 <div className="img-container">
                                     <img src={product.img} alt={product.title} />
                                 </div>
