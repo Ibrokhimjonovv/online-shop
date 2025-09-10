@@ -1,6 +1,7 @@
 import React from "react";
 import "./products.scss";
 import { products } from "../../context/context";
+import YandexAd from "../yandex-ad/ad";
 
 const Star = ({ type }) => {
     if (type === "full") {
@@ -94,11 +95,16 @@ const Products = () => {
     };
 
     const pushTo = (id) => {
-        window.location.href=`/shop/${id}`
+        window.location.href = `/shop/${id}`
     }
 
     return (
         <div id="products-container">
+            <YandexAd
+                blockId="R-A-17181670-1"
+                renderTo="yandex_rtb_R-A-17181670-1"
+            />
+
             {Object.entries(categories).map(([category, items]) => (
                 <div key={category} className="category-block">
                     <h1 className="products-title">{formatCategory(category)}</h1>
