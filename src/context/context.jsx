@@ -11,7 +11,8 @@ const products = [
         price: 186,
         discount: 232,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 2,
@@ -21,7 +22,8 @@ const products = [
         price: 145,
         discount: 0,
         category: "top-selling",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 3,
@@ -31,7 +33,8 @@ const products = [
         price: 80,
         discount: 0,
         category: "top-selling",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 4,
@@ -41,7 +44,8 @@ const products = [
         price: 210,
         discount: 0,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 5,
@@ -51,7 +55,8 @@ const products = [
         price: 120,
         discount: 232,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 6,
@@ -61,7 +66,8 @@ const products = [
         price: 240,
         discount: 260,
         category: "new-arrivals",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 7,
@@ -71,7 +77,8 @@ const products = [
         price: 180,
         discount: 0,
         category: "new-arrivals",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 8,
@@ -81,7 +88,8 @@ const products = [
         price: 160,
         discount: 240,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
 
     {
@@ -92,7 +100,8 @@ const products = [
         price: 186,
         discount: 232,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 10,
@@ -102,7 +111,8 @@ const products = [
         price: 145,
         discount: 0,
         category: "new-arrivals",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 11,
@@ -112,7 +122,8 @@ const products = [
         price: 80,
         discount: 0,
         category: "new-arrivals",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 12,
@@ -122,7 +133,8 @@ const products = [
         price: 210,
         discount: 0,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 13,
@@ -132,7 +144,8 @@ const products = [
         price: 120,
         discount: 232,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 14,
@@ -142,7 +155,8 @@ const products = [
         price: 240,
         discount: 260,
         category: "new-arrivals",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 15,
@@ -152,7 +166,8 @@ const products = [
         price: 180,
         discount: 0,
         category: "new-arrivals",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 16,
@@ -162,7 +177,8 @@ const products = [
         price: 160,
         discount: 240,
         category: "new-arrivals",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 17,
@@ -172,7 +188,8 @@ const products = [
         price: 120,
         discount: 232,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 18,
@@ -182,7 +199,8 @@ const products = [
         price: 240,
         discount: 260,
         category: "top-selling",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 19,
@@ -192,7 +210,8 @@ const products = [
         price: 180,
         discount: 0,
         category: "top-selling",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 20,
@@ -202,7 +221,8 @@ const products = [
         price: 160,
         discount: 240,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 21,
@@ -212,7 +232,8 @@ const products = [
         price: 186,
         discount: 232,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 22,
@@ -222,7 +243,8 @@ const products = [
         price: 145,
         discount: 0,
         category: "top-selling",
-        type: "women"
+        type: "women",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 23,
@@ -232,7 +254,8 @@ const products = [
         price: 80,
         discount: 0,
         category: "top-selling",
-        type: "kids"
+        type: "kids",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
     {
         id: 24,
@@ -242,7 +265,8 @@ const products = [
         price: 210,
         discount: 0,
         category: "top-selling",
-        type: "men"
+        type: "men",
+        otherImages: ['https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png', 'https://shopco.surge.sh/static/media/topsellingimg4.c50b063cf9765875c7ff.png']
     },
 ]
 
