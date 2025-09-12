@@ -6,6 +6,9 @@ import DonateAlertions from './components/donate-alertions/donate-alertions'
 import Header from './components/header/header'
 import NotFound from './pages/not-found/not-found'
 import Details from './pages/product-details/details'
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+import Cart from './pages/cart/cart'
 
 function App() {
   return (
@@ -16,9 +19,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop/:id" element={<Details />}/>
+          <Route path="/cart" element={<Cart />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer position="top-right" autoClose={2000} />
     </div>
   )
 }

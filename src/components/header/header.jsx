@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { Link } from 'react-router-dom';
 import "./header.scss";
+import { Context } from '../../context/context';
 
 const Header = () => {
     const [productTypes, setProductTypes] = useState(false);
+    const { cart } = useContext(Context);
+
+
     return (
         <header id='header'>
             <div className="header-inner">
@@ -16,7 +20,7 @@ const Header = () => {
                             <li>
                                 <Link to="#" onClick={() => setProductTypes(!productTypes)} className={productTypes ? "active" : ""}>Product for...</Link>
                                 {
-                                    productTypes && 
+                                    productTypes &&
                                     <div className="product-types">
                                         <ul>
                                             <li>
@@ -48,21 +52,22 @@ const Header = () => {
                                 }
                             </li>
                             <li>
-                                <Link to="#">On sale</Link>
+                                <a href="/#top-selling">Top selling</a>
                             </li>
                             <li>
-                                <Link to="#">New arrivals</Link>
+                                <a href="/#new-arrivals">New arrivals</a>
                             </li>
                             <li>
-                                <Link to="#">Brands</Link>
+                                <a href="/#comments-container">Customers</a>
                             </li>
                         </ul>
                     </nav>
                     <div className="right-nav">
                         <ul>
                             <li>
-                                <Link to="#">
-                                    <i className='bxr  bxs-cart bx-flip-horizontal' style={{ color: '#000' }}></i>
+                                <Link to="/cart">
+                                    <i className="bxr bxs-cart bx-flip-horizontal" style={{ color: '#000' }}></i>
+                                    {cart.length > 0 && <div className="cart-count">{cart.length}</div>}
                                 </Link>
                             </li>
                             <li>

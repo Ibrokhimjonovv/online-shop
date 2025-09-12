@@ -104,6 +104,22 @@
           li {
             a {
               font-size: 28px;
+              position: relative;
+
+              .cart-count {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 15px;
+                height: 15px;
+                background-color: red;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
             }
           }
         }

@@ -106,7 +106,7 @@ const Products = () => {
             />
 
             {Object.entries(categories).map(([category, items]) => (
-                <div key={category} className="category-block">
+                <div key={category} className="category-block" id={category}>
                     <h1 className="products-title">{formatCategory(category)}</h1>
                     <div className="products-container">
                         {items.map((product) => (
